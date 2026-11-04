@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FIKRA — Terms of Work</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-layer">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="orb orb-4"></div>
+  </div>
+  <div class="grid-overlay"></div>
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="logo-block">
+        <div class="logo-row">
+          <svg class="logo-f" viewBox="0 0 80 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="fGrad1" x1="10" y1="5" x2="70" y2="40" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#e9d5ff"/>
+                <stop offset="50%" stop-color="#c084fc"/>
+                <stop offset="100%" stop-color="#a855f7"/>
+              </linearGradient>
+              <linearGradient id="fGrad2" x1="5" y1="30" x2="65" y2="70" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#c084fc"/>
+                <stop offset="100%" stop-color="#7c3aed"/>
+              </linearGradient>
+              <linearGradient id="fGrad3" x1="15" y1="50" x2="40" y2="90" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#9333ea"/>
+                <stop offset="100%" stop-color="#5b21b6"/>
+              </linearGradient>
+            </defs>
+            <path d="M18 12 L72 8 L68 28 L14 32 Z" fill="url(#fGrad1)"/>
+            <path d="M14 36 L62 32 L58 50 L10 54 Z" fill="url(#fGrad2)"/>
+            <path d="M10 54 L28 50 L22 88 L4 92 Z" fill="url(#fGrad3)"/>
+          </svg>
+
+          <div class="ikra-wrap" aria-hidden="true">
+            <span class="ikra-letter">I</span>
+            <span class="ikra-letter">K</span>
+            <span class="ikra-letter">R</span>
+            <span class="ikra-letter">A</span>
+          </div>
+        </div>
+        <div class="brand-sub">Creative Digital Studio</div>
+      </div>
+
+      <div class="lang-toggle">
+        <button class="lang-btn active" data-lang="ar">عربي</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </header>
+
+    <div class="page-title">
+      <h1 id="main-title">بنود وأساسيات العمل مع تيم فكرة</h1>
+      <p id="main-sub">الشروط والأحكام الأساسية للتعاون معنا</p>
+    </div>
+
+    <div class="terms-list" id="terms-list">
+      <div class="loading-state">جاري التحميل...</div>
+    </div>
+
+    <p class="footer-note" id="footer">
+      FIKRA Creative Digital Studio · جميع الحقوق محفوظة
+    </p>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore-compat.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
